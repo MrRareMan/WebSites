@@ -1,0 +1,99 @@
+/* General container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+nav h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Module container styling */
+.module-container {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 180px;
+}
+
+.module-container h3 {
+    margin-top: 0;
+}
+
+.module-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.module-container ul li {
+    margin-bottom: 10px;
+}
+
+.module-container ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.module-container ul li a:hover {
+    color: #007BFF;
+}
+
+/* Course content styling */
+#python {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+#python h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.course-details li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
